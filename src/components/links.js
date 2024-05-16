@@ -4,13 +4,13 @@ const Links = () => {
     return (
         <div class="link">
             <div class="link-icon">
-                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/ankita-gupta-187716169/" target="_blank" rel="noopener noreferrer">
                     <img class="icon-img" src='images/linkedin.png' alt="linkedin" width="100" height="200">
                     </img>
                 </a>
             </div>
             <div class="link-icon">
-                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/AnkitaG53946229" target="_blank" rel="noopener noreferrer">
                     <img class="icon-img" src='images/twitter.png' alt="twitter" width="100" height="200">
                     </img>
                 </a>
