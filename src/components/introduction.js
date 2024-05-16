@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import COLORS from '../colors'
 import "../css/introduction.css"
 import { meta, logotext } from "../content"
 import Links from './links';
@@ -65,7 +64,7 @@ export default class Introduction extends Component {
 
                 <div class="content">
                     <div class="sudsection-header-about">
-                        <span>$about-me</span>
+                        <span>#about-me</span>
                     </div>
                     <div class="content-header">
                         <div> Hi, I'm a <span class="highlight">{meta.current_profile}</span> </div>
