@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "../css/mobile-navbar.css";
 
 const MobileNavbar = () => {

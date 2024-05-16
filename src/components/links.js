@@ -1,29 +1,28 @@
-import React, { useState } from "react";
 import "../css/links.css";
 
 const Links = () => {
     return (
         <div class="link">
             <div class="link-icon">
-                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank">
+                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank" rel="noopener noreferrer">
                     <img class="icon-img" src='images/linkedin.png' alt="linkedin" width="100" height="200">
                     </img>
                 </a>
             </div>
             <div class="link-icon">
-                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank">
+                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank" rel="noopener noreferrer">
                     <img class="icon-img" src='images/twitter.png' alt="twitter" width="100" height="200">
                     </img>
                 </a>
             </div>
             <div class="link-icon">
-                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank">
+                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank" rel="noopener noreferrer">
                     <img class="icon-img" src='images/instagram.png' alt="instagram" width="100" height="200">
                     </img>
                 </a>
             </div>
             <div class="link-icon">
-                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank">
+                <a href="https://www.linkedin.com/in/nguyenvu2608/" target="_blank" rel="noopener noreferrer">
                     <img class="icon-img" src='images/facebook.png' alt="facebook" width="100" height="200">
                     </img>
                 </a>

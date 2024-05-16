@@ -9,7 +9,7 @@ export default class Introduction extends Component {
                 <div class="big-screen about-card">
                     <div class="cnt profile-pic">
                         <div class="photo" >
-                            <img class="profile-pic" src='images/mohit-profile-pic.jpeg' width="200" height="200">
+                            <img class="profile-pic" src='images/mohit-profile-pic.jpeg' alt="Profile pic" width="200" height="200">
                             </img>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default class Introduction extends Component {
                 <div class="mobile-view about-card">
                     <div class="cnt profile-pic">
                         <div class="photo" >
-                            <img class="profile-picture" src='images/mohit-profile-pic.jpeg' width="200" height="200">
+                            <img class="profile-picture" src='images/mohit-profile-pic.jpeg' alt="Profile Pic" width="200" height="200">
                             </img>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default class Introduction extends Component {
                     <div class="cv-contact">
                         <div class="btns download-cv">
                             <button class="download">
-                                <img src='images/download.png'>
+                                <img src='images/download.png' alt="download CV">
                                 </img>
                             </button>
                         </div>

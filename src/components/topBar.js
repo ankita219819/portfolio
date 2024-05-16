@@ -1,9 +1,8 @@
-import React, { Component, useState } from 'react';
+import React from 'react';
 import "../css/topBar.css";
-import { logotext, topBarManu } from "../content";
 
 const TopBar = () => {
-    const [showDropdown, setShowDropdown] = useState(false);
+   /* const [showDropdown, setShowDropdown] = useState(false);
 
     const handleMouseEnter = () => {
         setShowDropdown(true);
@@ -11,12 +10,12 @@ const TopBar = () => {
 
     const handleMouseLeave = () => {
         setShowDropdown(false);
-    };
+    };*/
     return (
         <div class="top-bar">
             <div class="logo">
                 {/*<img src='images/mohitio-logo-transparent.png' alt='mohit.io'  width="100" ></img>*/}
-                <img src='images/mohitio-logo-white-transparent.png' alt='mohit.io' width="150"></img>
+                <img src='images/mohitio-logo-white-transparent.png' alt='mohitsingh.io' width="150"></img>
                 {/*<img src='images/my-logo.png' alt='mohit.io'  width="100" height="100"></img>*/}
             </div>
             <div class="link-logo">
