@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family:  "Fira Code", monospace;
+  color: #FEFEFE;
+  background-color: #111119;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/** green color **/
