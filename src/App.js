@@ -12,6 +12,9 @@ function App() {
       <TopBar></TopBar>
       <Introduction></Introduction>
       <Projects></Projects>
+      <div class="footer">
+
+      </div>
     </div>
   );
 }
