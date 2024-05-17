@@ -64,20 +64,22 @@ export default class Introduction extends Component {
 
                 <div class="content">
                     <div class="sudsection-header-about">
-                        <span>#about-me</span>
+                        <span>#about_me</span>
                     </div>
                     <div class="content-header">
-                        <div> Hi, I'm a <span class="highlight">{meta.current_profile}</span> </div>
+                        <div class="about-hdr"> Hi, I'm a <span class="highlight">{meta.current_profile}</span> </div>
+                        {/*
                         <div class="download-btn">    <button class="Btn">
                             <svg class="svgIcon" viewBox="0 0 384 512" height="0.5em" xmlns="http://www.w3.org/2000/svg"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
                             <span class="icon2"></span>
                             <span class="tooltip">Download csv</span>
                         </button>
                         </div>
+                        */}
                     </div>
                     <div class="content-subheader">
                         <div class="typewriter monospace no-caret">
-                            {meta.summary}
+                            _{meta.summary}
                         </div>
                         <p class="line-1 typing anim-typewriter"> {/*I'm currently working as
                         {meta.working_as.map((skill, index) => (
@@ -91,6 +93,7 @@ export default class Introduction extends Component {
                     */}
                         </p>
                     </div>
+                    
                     <div class="about__cards">
                         <article class="about__card">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="about__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +114,7 @@ export default class Introduction extends Component {
                             <h5>Certificate</h5>
                             <small>+20 Certificate</small>
                         </article>
-                        <article class="about__card">
+                        {/*<article class="about__card">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="about__icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.70996 3H14.5L15.01 3.5V7H14V5.98999H7.68994L6.82996 6.84998L6.47998 7H1.98999V7.48999V11.49V13H7V14H1.51001L1.01001 13.5V6.5V2.5L1.51001 2H6.51001L6.85999 2.15002L7.70996 3ZM7.48999 5H13.99L14 4.01001H7.5L7.14001 3.85999L6.29004 3.01001H2V6.01001H6.28003L7.14001 5.15002L7.48999 5Z"></path>
                                 <rect x="8" y="8" width="1" height="6"></rect><rect x="10" y="8" width="1" height="6"></rect><rect x="12.0041" y="8.35193" width="1" height="6" transform="rotate(-20 12.0041 8.35193)"></rect>
@@ -119,6 +122,7 @@ export default class Introduction extends Component {
                             <h5>Projects</h5>
                             <small>+4 Completed</small>
                         </article>
+                */}
                     </div>
                 </div>
 

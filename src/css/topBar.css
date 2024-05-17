@@ -82,3 +82,10 @@ ul {
     display: flex;
     justify-content: end;
   }
+  @media screen and (max-width: 600px){
+  .logo {
+      width: 60%;
+      color: #05C675;
+      cursor: pointer;
+  }
+}
