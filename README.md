@@ -35,3 +35,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Deployement is done on [Netify](https://app.netlify.com/teams/ankita219819/overview)
 This account is linked to github. Whenever there is a merge action to main branch in git pub, the build automatically triggers in the netify. Once the build is successful, the application in published.
 Portfolio link: https://main--earnest-treacle-9c10a4.netlify.app/
+![portfolio snapshot](portfolio_snippet.png)
