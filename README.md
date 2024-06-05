@@ -1,4 +1,4 @@
-# Mohit Singh Portfolio
+# Mohit Singh's Portfolio
 This portfolio is using the following tech stack
 1. React- 18v
 2. node- 20v
