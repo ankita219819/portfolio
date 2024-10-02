@@ -334,7 +334,6 @@
 .about__card {
   background: #0f2524;
   border: 1px solid transparent;
-  border-radius: 1rem;
   padding: 2rem;
   text-align: center;
   display: flex;

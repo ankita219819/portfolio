@@ -3,6 +3,12 @@ body {
   font-family:  "Fira Code", monospace;
   color: #FEFEFE;
   background-color: #111119;
+  /* background-image:url("../public/images/terminal.jpeg");  */
+  opacity:1.2;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
+
 }
 
 :root {
